@@ -582,13 +582,13 @@ body {
   z-index: 3000;
   display: none;
   text-decoration: none;
-  color: #252323;
+  color: #6688A5;
   background-color: transparent;
   font-size: 2rem;
 }
 
 .back-to-top:hover {
-  color: #6688A5;
+  color: #627C93;
 }
 
 @media (max-width: 359px) {

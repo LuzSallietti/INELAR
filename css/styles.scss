@@ -566,11 +566,11 @@ box-shadow: 2px 2px 9px 0px rgba(153,165,176,0.35);
     z-index: 3000;
     display: none;
     text-decoration: none;
-    color: $black;
+    color: $blue;
     background-color: transparent;
     font-size: 2rem;
     &:hover{
-        color: $blue;
+        color: $gray;
     }
 }
          
