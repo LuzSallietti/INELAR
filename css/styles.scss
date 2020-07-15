@@ -5,6 +5,7 @@ $blue:#6688A5;
 $yellow:#FDE89F;
 $fontFamily:'Poppins', sans-serif;
 
+
 *{
     box-sizing: border-box;
     font-weight: normal;
@@ -13,6 +14,7 @@ $fontFamily:'Poppins', sans-serif;
 html{
     font-size: 14px;
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: #fff;
@@ -24,9 +26,17 @@ body{
     justify-content: space-evenly;
     
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: 2px solid $blue;
+    box-shadow: none;
+}
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
 }
+
     
 
 .menu{
@@ -189,15 +199,15 @@ body{
     top:-2rem;
 }
 .arrow::after{
-    content: "\f0d7"; /* Valor unicode */
+    content: "\f078"; /* Valor unicode */
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 10%;
     
 }
@@ -582,3 +592,4 @@ box-shadow: 2px 2px 9px 0px rgba(153,165,176,0.35);
 @import 'mediaqueries-sm';
 @import 'mediaqueries-md';
 @import 'mediaqueries-lg';
+
