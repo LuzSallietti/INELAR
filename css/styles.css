@@ -676,6 +676,10 @@ body {
   .slide-subtitle {
     width: 75%;
   }
+  .logo-footer {
+    width: 25%;
+    height: auto;
+  }
 }
 
 @media (min-width: 992px) {
