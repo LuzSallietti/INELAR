@@ -581,7 +581,7 @@ body {
 }
 
 .logo-footer {
-  width: 20%;
+  width: 15%;
   height: auto;
 }
 
@@ -635,7 +635,7 @@ body {
     font-size: 1.25rem;
   }
   .logo-footer {
-    width: 75%;
+    width: 40%;
     height: auto;
   }
 }
@@ -664,7 +664,7 @@ body {
     font-size: 1.25rem;
   }
   .logo-footer {
-    width: 75%;
+    width: 40%;
     height: auto;
   }
 }
