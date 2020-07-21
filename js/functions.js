@@ -1,3 +1,14 @@
+var menu=document.getElementById("menu");
+var links=document.getElementsByClassName("nav-link");
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("activo");
+    current[0].className = current[0].className.replace(" activo", "");
+    this.className += " activo";
+    });
+  }
+
+
 let formulario=document.getElementById("formulario");
 let btnFormulario=document.getElementById("form-btn");
         
@@ -44,7 +55,6 @@ $(document).ready(function(){
         }]
     });
 });
-
 
          
 

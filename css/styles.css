@@ -40,19 +40,15 @@ body {
   font-size: 1.125rem;
 }
 
+.menu li .activo {
+  color: #6688A5;
+  font-weight: 600;
+}
+
 .menu li a {
   color: #fff;
   font-weight: 600;
   letter-spacing: .5px;
-}
-
-.menu li a .gray {
-  color: #6688A5;
-  font-weight: 600;
-}
-
-.menu li a:active {
-  color: #6688A5;
 }
 
 .menu li a:hover {
@@ -188,6 +184,11 @@ body {
   background-color: #6688A5;
   color: #fff;
   padding: 1rem;
+}
+
+.posicionador-nosotros {
+  position: absolute;
+  top: 45rem;
 }
 
 .imagen {
@@ -407,6 +408,16 @@ body {
   display: none;
 }
 
+.posicionador-clientes {
+  position: relative;
+  top: -9rem;
+}
+
+.posicionador-antecedentes {
+  position: relative;
+  top: -9rem;
+}
+
 .antecedentes {
   background-image: url("../img/fondo antecedentes2.jpg");
   background-size: cover;
@@ -430,6 +441,11 @@ body {
 
 .width {
   width: 100%;
+}
+
+.posicionador-galeria {
+  position: relative;
+  top: -9rem;
 }
 
 .shadow {
@@ -562,8 +578,13 @@ body {
 
 .connect {
   fill: #000;
-  width: 75px;
+  width: 90px;
   height: auto;
+}
+
+.posicionador-contacto {
+  position: relative;
+  top: -8.5rem;
 }
 
 .black-back {

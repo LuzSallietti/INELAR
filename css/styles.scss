@@ -44,20 +44,16 @@ body{
     font-size: 1.125rem;
     
         li{
-            
+            .activo{
+                color: $blue;
+                font-weight: 600;
+            }
             a{
-               .gray{
-                   color: $blue;
-                   font-weight: 600;
-               }
+               
                 color: #fff;
                 font-weight: 600;
-                letter-spacing: .5px;
+                letter-spacing: .5px;               
                 
-
-                &:active{
-                    color: $blue;
-                }
                 &:hover{
                     color: $blue;
                 }
@@ -180,7 +176,10 @@ body{
     color: #fff;
     padding: 1rem;
 }
-
+.posicionador-nosotros{
+    position: absolute;
+    top:45rem;
+}
 .imagen{
     width: 100%;
     height: auto;
@@ -373,6 +372,14 @@ body{
   .slick-arrow.slick-hidden {
       display: none;
   }
+.posicionador-clientes{
+    position: relative;
+    top:-9rem;
+}
+.posicionador-antecedentes{
+    position: relative;
+    top:-9rem;
+}
 .antecedentes{
     background-image: url('../img/fondo\ antecedentes2.jpg');
     background-size: cover;
@@ -395,6 +402,10 @@ body{
 }
 .width{
     width: 100%;
+}
+.posicionador-galeria{
+    position: relative;
+    top:-9rem;
 }
 .shadow{
     -webkit-box-shadow: 2px 2px 9px 0px rgba(153,165,176,0.35);
@@ -549,8 +560,12 @@ box-shadow: 2px 2px 9px 0px rgba(153,165,176,0.35);
     }
     .connect{
         fill: #000;
-        width: 75px;
+        width: 90px;
         height: auto;
+    }
+.posicionador-contacto{
+        position: relative;
+        top:-8.5rem;
     }
 .black-back{
     background-color: $black;
