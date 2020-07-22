@@ -629,6 +629,15 @@ body {
   color: #627C93;
 }
 
+input[type=submit] {
+  color: #6688A5;
+  font-weight: 600;
+}
+
+input[type=submit]:hover {
+  color: #fff;
+}
+
 @media (max-width: 359px) {
   .navbar {
     padding: 0 1rem 1rem 1rem;
